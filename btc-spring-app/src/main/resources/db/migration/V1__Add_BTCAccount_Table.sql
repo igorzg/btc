@@ -18,4 +18,8 @@ CREATE INDEX `idx_usd_balance`
 CREATE INDEX `idx_btc_balance`
   ON `BTCAccount` (`btc_balance`);
 
+INSERT INTO `BTCAccount` (`account_id`, `name`, `usd_balance`, `btc_balance`) VALUES
+  (1, 'acc_one',  20.00, 0.0),
+  (2, 'acc_two',  10.00, 0.0);
+
 

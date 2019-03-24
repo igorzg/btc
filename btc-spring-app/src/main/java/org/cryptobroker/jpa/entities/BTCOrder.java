@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name = "BTCOrder")
+@Table(name = "BTCOrders")
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BTCOrder {
 
